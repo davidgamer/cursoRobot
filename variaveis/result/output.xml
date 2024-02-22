@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.0 (Python 3.11.8 on win32)" generated="2024-02-19T18:54:50.567417" rpa="false" schemaversion="5">
+<suite id="s1" name="Variaveis" source="C:\Users\david.silva\Desktop\robot-curso\variaveis">
+<suite id="s1-s1" name="Variaveis" source="C:\Users\david.silva\Desktop\robot-curso\variaveis\variaveis.robot">
+<test id="s1-s1-t1" name="Imprimir dado pessoais" line="13">
+<kw name="Log To Console" owner="BuiltIn">
+<arg>${PESSOA.nome}\n</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-02-19T18:54:50.597533" elapsed="0.000000"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>${PESSOA.email}\n</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-02-19T18:54:50.598548" elapsed="0.001484"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>${PESSOA.idade}\n</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-02-19T18:54:50.600528" elapsed="0.001016"/>
+</kw>
+<status status="PASS" start="2024-02-19T18:54:50.596638" elapsed="0.004906"/>
+</test>
+<test id="s1-s1-t2" name="Imprimindo Frutas" line="19">
+<kw name="Log To Console" owner="BuiltIn">
+<arg>${FRUTAS[0]}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-02-19T18:54:50.603618" elapsed="0.000923"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>${FRUTAS[1]}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-02-19T18:54:50.604805" elapsed="0.001987"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>${FRUTAS[2]}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-02-19T18:54:50.607773" elapsed="0.000000"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>${FRUTAS[3]}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-02-19T18:54:50.607773" elapsed="0.000999"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>${FRUTAS[4]}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-02-19T18:54:50.608772" elapsed="0.001000"/>
+</kw>
+<status status="PASS" start="2024-02-19T18:54:50.602542" elapsed="0.007230"/>
+</test>
+<status status="PASS" start="2024-02-19T18:54:50.594524" elapsed="0.016248"/>
+</suite>
+<status status="PASS" start="2024-02-19T18:54:50.570176" elapsed="0.041595"/>
+</suite>
+<statistics>
+<total>
+<stat pass="2" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="2" fail="0" skip="0" id="s1" name="Variaveis">Variaveis</stat>
+<stat pass="2" fail="0" skip="0" id="s1-s1" name="Variaveis">Variaveis.Variaveis</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
